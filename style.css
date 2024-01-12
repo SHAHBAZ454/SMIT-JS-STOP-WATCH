@@ -1,0 +1,60 @@
+body {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #94c4d2, #d5a4a2, #b3a58a)
+  }
+
+  #stopwatch {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #1a1a1a; 
+    border: 5px solid #6c1fd1;
+    border-radius: 50px;
+    box-sizing: border-box; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  }
+
+  #controls {
+    margin-bottom: 20px;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: #6c1fd1; 
+    color: #fff;
+    box-shadow: 0 0 10px rgba(108, 31, 209, 0.5);  
+  }
+
+  button:hover {
+    background-color: #8e3fff;
+  }
+
+  #lapTimes {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .lapTime {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
